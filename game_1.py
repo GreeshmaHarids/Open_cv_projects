@@ -68,9 +68,9 @@ def display_random_image_on_webcam():
     random.seed(time.time())
 
     # List of image file paths
-    paper_im = "/home/greeshma/Music/bd-sep/stone_paper_scissor/paper.png"
-    stone_im = "/home/greeshma/Music/bd-sep/stone_paper_scissor/rock.png"
-    scissor_im = "/home/greeshma/Music/bd-sep/stone_paper_scissor/scissors.png"
+    paper_im = "paper.png"
+    stone_im = "rock.png"
+    scissor_im = "scissors.png"
     images = [
         paper_im,
         stone_im,
